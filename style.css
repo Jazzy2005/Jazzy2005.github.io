@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+p{
+  font-family: 'Pacifico', cursive;
+  color:PINK;
+  background-image: images\piano.jpg";
+
+}
+ h1{
+  font-family: 'Caveat', cursive;
+  background-color: 'images/crochet.jpg';
+  color: PINK;
+    border: 5px solid black;
+}
+
+/*Page Header*/
+
+header,
+section,
+footer{
+  padding: 100px 150px;
+}
+h1, h2 {
+  margin: 0; /* removes default space */
+}
+header h1 {
+  font-size: 100px;
+}
+p {
+  font-size: 20px;
+}
+
+.piano{
+  float: right;
+  border-radius: 50%;
+  width: 300px;
+}
+.travel{
+  float: right;
+  border-radius: 50%;
+  width: 300px
+}
+
+.crochet{
+  float: left;
+  border-radius: 70%;
+  width: 300px;
+}
+body {
+  background-image: url('images/crochet.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.briefintroaboutme{
+  overflow: hidden;
+}
